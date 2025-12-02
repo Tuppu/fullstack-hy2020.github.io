@@ -59,7 +59,7 @@ Step 1: Read the text below the "Warning" header.
 
 Step 2: Download this [repository](https://github.com/fullstack-hy2020/part12-containers-applications) and make it your submission repository for this part.
 
-Step 3: Run <i>curl http://helsinki.fi</i> and save the output into a file. Save that file into your repository as file <i>script-answers/exercise12_1.txt</i>. The directory <i>script-answers</i> was created in the previous step.
+Step 3: Run `curl https://www.helsinki.fi/fi > script-answers/exercise12_1.txt` to save the output into a file. The directory <i>script-answers</i> was created in the previous step.
 
 </div>
 <div class="content">
