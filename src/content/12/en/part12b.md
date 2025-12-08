@@ -680,7 +680,7 @@ root@7edcb36aff08:/# cd /usr/share/nginx/html/
 root@7edcb36aff08:/# rm index.html
 ```
 
-Now, if we go to http://localhost:8080/ we know that we deleted the correct file. The page shows 404. Let's replace it with one containing the correct contents:
+Now, if we go to http://localhost:8080/ we know that we deleted the correct file. The page shows 403 Forbidden. Let's replace it with one containing the correct contents:
 
 ```bash
 root@7edcb36aff08:/# echo "Hello, exec!" > index.html
